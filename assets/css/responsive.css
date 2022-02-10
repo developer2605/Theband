@@ -1,0 +1,141 @@
+/* Laptop */
+@media(min-width: 1024px){
+
+
+    .form-mess > input {
+        width: 49%;
+    }
+
+    .contact-form .form-send-btn {
+        margin-right: 24px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    /* css */
+    #header{
+        max-width: 100% !important;
+    }
+    #content .content-section{
+        max-width: 100%;
+        padding: 0 8px;
+    }
+    #content{
+        padding: 0 8px;
+    }
+
+    .contact-form{
+        float: right;
+    }
+
+    .contact-form p{
+        display: inline-block;
+        width: 100%;
+    }
+    .contact-form div{
+        width: 100%;
+    }
+
+    .form-mess > input {
+        width: 100% !important;
+    }
+
+    .contact-form .form-send-btn {
+        float: right;
+        width: 71px;
+        /* right: 0; */
+        /* top: 6px; */
+        background-color: #000;
+        color: #fff;
+        padding: 8px 16px;
+        margin: 13px 13px;
+    }
+}
+
+
+/* Mobile */
+@media(max-width: 767px){
+    #nav{
+        display: block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #000;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 43px;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header > .mobile-menu-btn{
+        padding:12px 24px;
+    }
+
+    #header .ti-menu{
+        display: block;
+    }
+
+    #content .content-section{
+        width: auto;
+    }
+
+    #content .memder-item{
+        width: 100%;
+    }
+
+    #content .member-name{
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
+    #content .member-img{
+        width: auto;
+    }
+
+    .places-list{
+        display: inline-block;
+    }
+
+    .places-item{
+        padding-top: 12px;
+    }
+
+    .contact-form input{
+        margin-top: 12px;
+        width: 100%;
+        display: block;
+    }
+    /* foooter */
+
+    #footer .logo{
+        font-size: 48px;
+    }
+
+    .footer-copyright{
+        font-size: 28px;
+    }
+}
